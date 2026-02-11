@@ -4,30 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ramkumar</title>
+    <link rel="stylesheet" href="./CSS/project1.css">
 </head>
 <body>
-    <h1 id="start"> Pathapapalem Ramkumar - Fullstack Developer</h1>
-    <pre>Welcome to my profile, this is fully HTML based portofolio in order showcase my skills on html, I am crafting this portfolio.Explore simply with Navigtion below :</pre>
+    <header>
+    <nav class = "nav_bar">
+        <div class ="nav_container">
+            <ul >
+                <li class = "nav_links"><a class ="nav_items" href="#aboutme">About Me</a></li>
+                <li class = "nav_links"><a class ="nav_items" href="#skills">Skills</a></li>
+                <li class = "nav_links"><a class ="nav_items" href="#projects">projects</a></li>
+                <li class = "nav_links"><a class ="nav_items" href="#internships">Internships</a></li>
+                <li class = "nav_links"><a class ="nav_items" href="#contact">Contact</a></li>
+                <li class = "nav_links"><a class ="nav_items" href="./assets/Ramkumar Resume.pdf" download="Ramkumar_Fullstack_Developer">Download Resume</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class = "video_container" >
+        <video  class = "hero_video" src="./assets/welcome.mp4" autoplay loop muted playsinline>
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    
+    <p>Welcome to my profile, This is fully HTML based portfolio in order showcase my skills on html, I am crafting this portfolio. Explore simply with Navigation below :</p>
+    </header>
 
-    <ul>
-        <li><a href="#aboutme">About Me</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">projects</a></li>
-        <li><a href="#internships">Internships</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="./assets/Ramkumar Resume.pdf" download="Ramkumar_Fullstack_Developer">Download Resume</a></li>
-    </ul>
+    
         
     <hr>
 
+    <main>
+    <section id="aboutme-section">
     <h2 id="aboutme">About Me</h2>
-    <p>I am an aspiring fullstack developer, having skill set in frontend technologies like HTML, CSS, JavaScript and along with Bootstarp framework.For Backend developement I use java, JDBC and currently learning springboot framework and I am enthusiast in problem solving for that, I solve problems on CodeCheff,Leetcode and HackerTank platforms.  </p>
+    <p>I am an aspiring fullstack developer, having skill set in frontend technologies like HTML, CSS, JavaScript and along with Bootstrap framework.For Backend developement I use java, JDBC and currently learning springboot framework and I am enthusiast in problem solving for that, I solve problems on CodeChef, Leetcode and HackerRank platforms.  </p>
     <p>See my open work on GitHub :</p>
 
     <p><a href="https://github.com/Ram-reddy-2004"> Visit my GitHub    <img src="./assets/github.png" alt="github" height="15" width="15"></a></p>
+    </section>
 
     <hr>
-    <h2 id="skills">Skills: </h3>
+    <section id="skills-section">
+    <h2 id="skills">Skills: </h2>
     <ul>
         <li><b>Programming Languages:</b> Python, Java, JavaScript(basic)
         <li><b>Frontend Technologies:</b> Html, CSS, JSP</li>
@@ -39,7 +56,7 @@
         <li><b>Tools:</b> Canva,Google Colab, VS Code, Eclipse</li>
 
     </ul>
-    <h3>Tach Glassory : </h3>
+    <h3>Tech Glossary : </h3>
     <dl>
         <dt><b>HTML</b></dt>
         <dd>Hyper Text Markup Language</dd>
@@ -53,8 +70,10 @@
         <dd>Structured Query Language</dd>
 
     </dl>
+    </section>
 
     <hr>
+    <section id="projects-section">
     <h2 id="projects">Projects : </h2>
     <h3>Learning Platform - LearnMate AI</h3>
         <ul>
@@ -73,33 +92,41 @@
         <li>Created an AI chatbot using the Lovable platform, integrating OpenAPI for messaging and Supabase for data security.
 Focused on user experience, backend management, and prompt engineering, enhancing skills in API integration</li>
     </ul>
+    </section>
 
     <hr>
+    <section id="internships-section">
     <h2 id="internships">Internships:</h2>
     <h3>Data Science & ML Intern, YBI Foundation (Online) </h3>
     <ul>
         <li>Designed and developed Python-based data processing modules following SDLC practices using Pandas and NumPy.</li>
         <li>Collaborated with cross-functional teams to analyze requirements, build efficient data pipelines, and optimize performance.</li>
     </ul>
+    </section>
 
     <hr>
 
+    <section id="contact-section">
     <h2 id="contact">Contact me :</h2>
 
     <p><a href="mailto:pathapalem.ramkumar@gmail.com">Email :  <img src="./assets/gmail.png" alt="" height="15" width="15"> </a></p>
+    </section>
+    </main>
 
     <hr>
 
+    <footer>
     <h2 >Connect with me </h2>
     <ul>
         <li><img src="./assets/linkedin.png" alt="linkedin" height="15" width="15">  <a href="https://leetcode.com/u/ram098/">Linkedin</a> </li>
-        <li><img src="./assets/codecheff.jpeg" alt="codecheff" height="15" width="15"> <a href="https://www.codechef.com/users/ramkumar_420">Code Cheff</a></li>
+        <li><img src="./assets/codecheff.jpeg" alt="codecheff" height="15" width="15"> <a href="https://www.codechef.com/users/ramkumar_420">Code Chef</a></li>
         <li><img src="./assets/leetcode.png" alt="" height="15" width="15"><a href="https://leetcode.com/u/ram098/">Leetcode</a></li>
     </ul>
 
     <hr>
         <p><a href="#start">Move to top 👆</a></p>
+        <p>@2023 Ramkumar Pathapalem. All rights reserved.</p>
+    </footer>
 </body>
 
 </html>
-
