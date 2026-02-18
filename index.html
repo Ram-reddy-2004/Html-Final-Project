@@ -4,309 +4,222 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Html Practice</title>
+    <link rel="stylesheet" href="./CSS/index.css">
 </head>
 <body>
     <header>
-        <table border="1" cellpadding="10" cellspacing="0" width="100%">
-            <tr>
-                <td width="35%"><img src="./assets/logo.png" alt="Logo" height="30" width="30"><br>
-                <p>Builted by Ramkumar</p>
-                </td>
-                <td>
-                    <nav>
-                        <ul style="list-style-type: none; display: flex; gap: 20px;">
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#whyhtml">Why HTML ?</a></li>
-                            <li><a href="#projects">Projects</a></li>
-                            <li><a href="#trainer">Trainer</a></li>
-                            <li><a href="#tapacademy">Website</a></li>
-                            <li><a href="#location">Location</a></li>
-                            <li><a href="#playlist">Playlist</a></li>
-                        </ul>
-                    </nav>
-                </td>
-            </tr>
-        </table>
+        <div class="header-container">
+            <div class="logo-section">
+                <img src="./assets/ramlogo.png" alt="Logo" height="70" width="70">
+                
+            </div>
+            <nav class="nav-bar">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#whyhtml">Why HTML ?</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#trainer">Trainer</a></li>
+                    <li><a href="#tapacademy">Website</a></li>
+                    <li><a href="#location">Location</a></li>
+                    <li><a href="#playlist">Playlist</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <br>
-    <br>
+
     <main>
         <section id="home">
-            <div align="center">
-            
+            <div class="section-title">
                 <h2>🚀 EDTECH EXCELLENCE with Ram..</h2> 
                 <h1>Master HTML with TAP Academy</h1> 
-                <p>Begin your web development journey with the foundation of the internet.
-Learn HTML from Trainer Harshit Sir and build real-world projects.</p> 
+            </div>
+            <p>Begin your web development journey with the foundation of the internet. Learn HTML from Trainer Harshit Sir and build real-world projects.</p> 
 
-                <button><a href="./project1.html">View My projects</a></button>
-                <button><a href="./project4.html">Why learn HTML..?</a></button>
+            <div class="hero-buttons">
+                <a href="./project1.html" class="btn">View My projects</a>
+                <a href="./project4.html" class="btn btn-secondary">Why learn HTML..?</a>
+            </div>
 
-                <br>
-                <br>
-                <table border="1" cellpadding="10" cellspacing="0" width="100%" align="center" style="text-align: center;">
-                    <tr>
-                       <td width="33%">
-                            <h3>6+</h3>
-                            <h3>Projects Build</h3>
-                        </td>                        
-                        <td width="33%">
-                            <h3>100%</h3>
-                            <h3>Practical Learning of HTML</h3>
-                            
-                        </td>
-                        <td width="33%">
-                            <h3>&infin;</h3>
-                            <h3>Career Opportunities</h3>
-                       </td>
-                    </tr>
-                </table>
+            <div class="stats-container">
+                <div class="stat-item">
+                    <h3>6+</h3>
+                    <p>Projects Build</p>
+                </div>                        
+                <div class="stat-item">
+                    <h3>100%</h3>
+                    <p>Practical Learning of HTML</p>
+                </div>
+                <div class="stat-item">
+                    <h3>&infin;</h3>
+                    <p>Career Opportunities</p>
+                </div>
             </div>
         </section>
-        <br>
-        <br>
-        <br>
-        <br>
-        <section align="center" id = "about">
-           <h2>----- ABOUT THE COURSE -----</h2>
-           <h1>What is HTML...?</h1>
-           <table border="1" cellpadding="10" cellspacing="0" width="100%" align="center" style="text-align: center;">
-            <tr>
-                <td width="25%">
-                    <br>
-                    🌐 <br>
+
+        <section id="about">
+           <div class="section-title">
+               <h2>----- ABOUT THE COURSE -----</h2>
+               <h1>What is HTML...?</h1>
+           </div>
+           <div class="about-content">
+               <div class="about-icon">
                     <h1>&lt;/&gt;</h1>
-                </td>
-                <td>
+               </div>
+               <div class="about-text">
                     <h2>HyperText Markup Language</h2>
-                    <br>
-                    <p>HTML is the backbone of every website on the internet. It's a markup language that defines the structure and content of web pages. Every website you visit - from Google to Instagram, from e-commerce stores to online banking portals - is built upon HTML.</p>  <br>
-                    <p>Learning HTML is the first step towards becoming a web developer. It allows you to create and structure content on the web, making it an essential skill for anyone interested in web development or design.</p><br>
+                    <p>HTML is the backbone of every website on the internet. It's a markup language that defines the structure and content of web pages. Every website you visit - from Google to Instagram, from e-commerce stores to online banking portals - is built upon HTML.</p>
+                    <p>Learning HTML is the first step towards becoming a web developer. It allows you to create and structure content on the web, making it an essential skill for anyone interested in web development or design.</p>
 
-                    <table border="1" cellpadding="40" cellspacing="0" width="100%" align="center" style="text-align: center;">
-                        <tr>
-                            <td>✓ Semantic Elements</td>
-                            <td>✓ Forms & Inputs</td>
-                            <td>✓ Tables & Lists</td>
-                            <td>✓ Multimedia</td>
-                        </tr>
-
-                    </table>
-                </td>
-            </tr>
-           </table>
-
+                    <div class="features-grid">
+                        <div class="feature-item">✓ Semantic Elements</div>
+                        <div class="feature-item">✓ Forms & Inputs</div>
+                        <div class="feature-item">✓ Tables & Lists</div>
+                        <div class="feature-item">✓ Multimedia</div>
+                    </div>
+               </div>
+           </div>
         </section>
-        <br>
-        <br>
-        <br>
-        <br>
+
         <section id="whyhtml">
-            <div align="center">
+            <div class="section-title">
                 <h2>----- WHY IT MATTERS -----</h2>
                 <h1>Importance of HTML in Real World</h1>
-                <br>
-                <br>
-                <table border="1" cellpadding="10" cellspacing="0" width="100%"  >
-                    <tr>
-                        <td><h3>🧰 Gateway to Web Development</h3>
-                           <p>HTML is the fundamental building block of the web. Learning HTML opens the door to web development, allowing you to create websites and applications that can be accessed by millions of users worldwide.</p>
-                        </td>
-                        <td>
-                            <h3>🌍 Universal Language of Web</h3>
-                            <p>HTML is a universal language that is understood by all web browsers. This means that once you learn HTML, you can create content that can be accessed and viewed by anyone, regardless of the device or platform they are using.</p>
-                        </td>
-                        <td>
-                            <h3>📱 Mobile App Development</h3>
-                            <p>HTML is not just for websites; it's also used in mobile app development. Many mobile apps are built using web technologies, and HTML is a crucial part of that process. Learning HTML can open up opportunities in the growing field of mobile app development.</p>
-                        </td>
-                    </tr>
-                </table>
+            </div>
+            <div class="grid-3">
+                <div class="card">
+                    <h3>🧰 Gateway to Web Development</h3>
+                    <p>HTML is the fundamental building block of the web. Learning HTML opens the door to web development, allowing you to create websites and applications that can be accessed by millions of users worldwide.</p>
+                </div>
+                <div class="card">
+                    <h3>🌍 Universal Language of Web</h3>
+                    <p>HTML is a universal language that is understood by all web browsers. This means that once you learn HTML, you can create content that can be accessed and viewed by anyone, regardless of the device or platform they are using.</p>
+                </div>
+                <div class="card">
+                    <h3>📱 Mobile App Development</h3>
+                    <p>HTML is not just for websites; it's also used in mobile app development. Many mobile apps are built using web technologies, and HTML is a crucial part of that process. Learning HTML can open up opportunities in the growing field of mobile app development.</p>
+                </div>
             </div>
         </section>
-        <br>
-        <br>
-        <br>
-        <br>
+
         <section id="projects">
-            <div align="center">
+            <div class="section-title">
                 <h2>----- SHOWCASE -----</h2>
                 <h1>My HTML Projects</h1>
-                <p>Explore 6 amazing projects built during my HTML learning journey at TAP Academy
-under Trainer Harshit Sir's guidance.</p>
-                
-                <table border="1" cellpadding="10" cellspacing="0" width="100%" align="center" style="text-align: center;">
-                    <tr>
-                        <td>
-                            📦
-                            <br>
-                            <h3>PROJECT 01</h3>
-                            <h2>Multimedia Blog</h2>
-                            <p>Tags: audio, video, source, img, poster, controls, pre, mark</p>
-                            <a href="./project4.html" target="_blank"> -> View Project</a>
-                            <br>
-
-                        </td>
-                        <td>
-                            📄
-                            <br>
-                            <h3>PROJECT 02</h3>
-                            <h2>Life & Skills Portfolio</h2>
-                            <p>Tags: ol (type 1/A/a/I/i), ul (disc/square/circle), li, dl, dt, dd, nested lists</p>
-                            <a href="./project5.html" target="_blank"> -> View Project</a>
-                            <br>
-                        </td>
-                        <td>
-                            📊
-                            <br>
-                            <h3>PROJECT 03</h3>
-                            <h2>Course Time Table</h2>
-                            <p>Tags: table, caption, thead, tbody, tr, th, td, rowspan, colspan</p>
-                            <a href="./project2.html" target="_blank"> -> View Project</a>
-                            <br>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            👨‍💻
-                            <br>
-                            <h3>PROJECT 04</h3>
-                            <h2>Developer Portfolio</h2>
-                            <p>Tags: nav, section, blockquote, cite, q, address, figure, figcaption, summary, abbr, mark, code, kbd, samp, var, sub, sup</p>
-                            <a href="./project1.html" target="_blank"> -> View Project</a>
-                            <br>
-                        </td>
-                        <td>
-                            📝
-                            <br>
-                            <h3>PROJECT 05</h3>
-                            <h2>Registration Form</h2>
-                            <p>Tags: form, fieldset, legend, label, input, textarea, select, option, button, datalist, progress, meter</p>
-                            <a href="./project3.html" target="_blank"> -> View Project</a>
-                            <br>
-                        </td>
-                        <td>
-                            🧭
-                            <br>
-                            <h3>PROJECT 06</h3>
-                            <h2>Travel Guide</h2>
-                            <p>Tags: header, nav, main, section, article, footer, iframe, img, form, input, button</p>
-                            <a href="./project6.html" target="_blank"> -> View Project</a>
-                            <br>
-                        </td>
-                    </tr>
-
-                </table>
+                <p>Explore 6 amazing projects built during my HTML learning journey at TAP Academy under Trainer Harshit Sir's guidance.</p>
+            </div>
+            
+            <div class="grid-3">
+                <div class="card">
+                    <h3>📦 PROJECT 01</h3>
+                    <h2>Multimedia Blog</h2>
+                    <p>Tags: audio, video, source, img, poster, controls, pre, mark</p>
+                    <a href="./project4.html" target="_blank" class="project-link"> -> View Project</a>
+                </div>
+                <div class="card">
+                    <h3>📄 PROJECT 02</h3>
+                    <h2>Life & Skills Portfolio</h2>
+                    <p>Tags: ol (type 1/A/a/I/i), ul (disc/square/circle), li, dl, dt, dd, nested lists</p>
+                    <a href="./project5.html" target="_blank" class="project-link"> -> View Project</a>
+                </div>
+                <div class="card">
+                    <h3>📊 PROJECT 03</h3>
+                    <h2>Course Time Table</h2>
+                    <p>Tags: table, caption, thead, tbody, tr, th, td, rowspan, colspan</p>
+                    <a href="./project2.html" target="_blank" class="project-link"> -> View Project</a>
+                </div>
+                <div class="card">
+                    <h3>👨‍💻 PROJECT 04</h3>
+                    <h2>Developer Portfolio</h2>
+                    <p>Tags: nav, section, blockquote, cite, q, address, figure, figcaption, summary, abbr, mark, code, kbd, samp, var, sub, sup</p>
+                    <a href="./project1.html" target="_blank" class="project-link"> -> View Project</a>
+                </div>
+                <div class="card">
+                    <h3>📝 PROJECT 05</h3>
+                    <h2>Registration Form</h2>
+                    <p>Tags: form, fieldset, legend, label, input, textarea, select, option, button, datalist, progress, meter</p>
+                    <a href="./project3.html" target="_blank" class="project-link"> -> View Project</a>
+                </div>
+                <div class="card">
+                    <h3>🧭 PROJECT 06</h3>
+                    <h2>Travel Guide</h2>
+                    <p>Tags: header, nav, main, section, article, footer, iframe, img, form, input, button</p>
+                    <a href="./project6.html" target="_blank" class="project-link"> -> View Project</a>
+                </div>
             </div>
         </section>
-        <br>
-        <br>
-        <br>
-        <br>
+
         <section id="trainer">
-            <div align="center">
+            <div class="card">
                 <h3>----- I am Learning from -----</h3>
                 <h2>Harshit Sir</h2>
-                <br>
-                <table border="1" cellpadding="10" cellspacing="0" width="100%" align="center" style="text-align: center;">
-                    <tr>
-                        <td>
-                            👨‍🏫
-                        <h2>Trainer Harshit Sir</h2>
-                        <h3>Senior Web Development Instructor at TAP Academy</h3>
-                        <p>With years of experience in web development and a passion for teaching,Harshit Sir has helped hundreds of students begin their journey in web development.His practical approach, real-world examples, and patient guidance make learning HTML a breeze forn enjoyable and rewarding experience.</p>
-                        <br>
-                        
-                            <table border="1" cellpadding="10" cellspacing="0" width="70%" align="center" style="text-align: center;">
-                                <tr>
-                                    <td>
-                                        <h2>500+</h2>
-                                        <p>Students Trained</p>
-                                    </td>
-                                    <td>
-                                        <h2>4.9/5</h2>
-                                        <p>Average Student Rating</p>
-                                    </td>
-                                    <td>
-                                        <h2>5+</h2>
-                                        <p>Years of Experience</p>
-                                    </td>
-                                </tr>
-                            </table>
-                        <br>
-                        </td>
-                    </tr>
-                </table>
+                <div style="font-size: 3rem; margin: 20px 0;">👨‍🏫</div>
+                <h2>Trainer Harshit Sir</h2>
+                <h3>Senior Web Development Instructor at TAP Academy</h3>
+                <p>With years of experience in web development and a passion for teaching, Harshit Sir has helped hundreds of students begin their journey in web development. His practical approach, real-world examples, and patient guidance make learning HTML a breeze for an enjoyable and rewarding experience.</p>
+                
+                <div class="stats-container" style="justify-content: center; gap: 50px;">
+                    <div>
+                        <h2>500+</h2>
+                        <p>Students Trained</p>
+                    </div>
+                    <div>
+                        <h2>4.9/5</h2>
+                        <p>Average Student Rating</p>
+                    </div>
+                    <div>
+                        <h2>5+</h2>
+                        <p>Years of Experience</p>
+                    </div>
+                </div>
             </div>
         </section>
-        <br>
-        <br>
-        <br>
-        <br>
+
         <section>
-            <div align="center">
+            <div class="card" style="text-align: center;">
                 <h1>Ready to Start Your Web Development Journey?</h1>
                 <p>Join TAP Academy today and learn HTML from the best.Your journey to becoming a web developer starts here!</p>
-                <br>
-                <a href="#projects">🚀 Explore My Projects</a>
-
+                <a href="#projects" class="btn" style="margin-top: 20px;">🚀 Explore My Projects</a>
             </div>
         </section>
-        <br>
-        <br>
-        <br>
-        <br>
+
         <section id="tapacademy">
-            <div align="center">
+            <div class="section-title">
                 <h3>----- TAP ACADEMY SHOWCASE -----</h3>
                 <h2>Official TAP Academy Website</h2>
                 <p>Visit the official website to explore courses and more:</p>
-                <br>
-                <br>
-                <table border="1" cellpadding="10" cellspacing="0" width="60%" align="center" style="text-align: center;">
-                    <tr>
-                        <td>
-                            <img src="./assets/logo.png" alt="">
-                            <br>
-                            <h2>TAP Academy</h2>
-                            <h3>Gamify Learning, Simplify Employment</h3>
-                            <a href="https://www.tap.academy/" target="_blank">👉 Visit thetapacademy.com</a>
-                            <br>
-                            <br>
-                        </td>
-                    </tr>
-                </table>
+            </div>
+            <div class="card" style="max-width: 600px; margin: 0 auto;">
+                <img src="./assets/logo.png" alt="" style="margin-bottom: 20px;">
+                <h2>TAP Academy</h2>
+                <h3>Gamify Learning, Simplify Employment</h3>
+                <a href="https://www.tap.academy/" target="_blank" class="project-link">👉 Visit thetapacademy.com</a>
             </div>
         </section>
-        <br><br><br><br>
+
         <section id="location">
-            <div align="center">
+            <div class="section-title">
                 <h3>----- FIND US -----</h3>
                 <h2>TAP Academy — BTM Layout Campus</h2>
                 <p>Find us on the map:</p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.866204424232!2d77.60805687320851!3d12.916319716091664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d6411bbb945%3A0x884e5e751a18bc1!2sTAP%20ACADEMY%20BTM!5e0!3m2!1sen!2sin!4v1770656568714!5m2!1sen!2sin" width="80%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.866204424232!2d77.60805687320851!3d12.916319716091664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d6411bbb945%3A0x884e5e751a18bc1!2sTAP%20ACADEMY%20BTM!5e0!3m2!1sen!2sin!4v1770656568714!5m2!1sen!2sin" width="100%" height="500" style="border:0; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
-        <br><br><br><br>
+
         <section id="playlist"> 
-            <div align="center">
+            <div class="section-title">
                 <h3>----- LEARN WITH US -----</h3>
                 <h2>JavaScript Course Playlist</h2>
                 <p>Watch TAP Academy's complete JavaScript series right here:</p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=7tVzpVF7zG8Fsh7C&amp;list=PLU83Ru7iGtAtTlQ8MRGHCBu4tzATiRfmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div style="text-align: center;">
+                <iframe width="100%" height="500" src="https://www.youtube.com/embed/videoseries?si=7tVzpVF7zG8Fsh7C&amp;list=PLU83Ru7iGtAtTlQ8MRGHCBu4tzATiRfmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width: 800px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);"></iframe>
             </div>
         </section>
-        <br><br><br><br>
-        <footer align="center">
-            <table border="1" cellpadding="10" cellspacing="0" width="100%" align="center" style="text-align: center;">
-                <tr>
-                    <td>
-                        <p>© 2026 TAP Academy. HTML Project by Ramkumar under guidance of Trainer Harshit Sir</p>
-
-                        <br>
-                        <a href="#about"> About</a> | <a href="#projects"> Projects</a>
-                    </td>
-                </tr>
+        
+        <footer>
+            <p>© 2026 TAP Academy. HTML Project by Ramkumar under guidance of Trainer Harshit Sir</p>
+            <br>
+            <a href="#about"> About</a> | <a href="#projects"> Projects</a>
         </footer>
     </main>
 </body>
