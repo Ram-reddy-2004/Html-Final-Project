@@ -2,7 +2,7 @@
 
 🚀 **Live Portfolio:**  
 👉 https://ram-reddy-2004.github.io/Portofolios/
-
+🚀 **Live on Netlify:** [View Demo](https://YOUR-NETLIFY-URL.netlify.app/)
 This repository contains my **personal portfolio website**, built using **HTML, CSS, and JavaScript**, and deployed on **GitHub Pages**.  
 It showcases my **technical skills, projects, internships, and professional profiles** in a clean and easy-to-navigate format.
 
